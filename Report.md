@@ -10,9 +10,11 @@ This image represents the flow of processes in a reinforcement learning training
 ![arch-rl](./img/arch-rl.png "arch-rl")
 
 In this project, we use Unity like environment simulator engine and we use the PyTorch framework to build the deep RL agent.
+
 ![arch-deeprl-unity](./img/arch-deeprl-unity-2.png "arch-deeprl-unity")
 
 This image defines the block diagram of ML-Agents toolkit for our sample environment. In our project, we use an unique agent.
+
 ![arch-unity-1.png](./img/arch-unity-1.png "arch-unity-1.png")
 
 An example of how a scene containing multiple Agents and Brains might be configured.
