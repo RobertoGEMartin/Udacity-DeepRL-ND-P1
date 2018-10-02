@@ -5,6 +5,24 @@ We will train a DeepRL agent to solve a Unity Environment.
 
 ## Architecture
 
+This image represents the flow of processes in a reinforcement learning training cycle.
+
+![arch-rl](./img/arch-rl.png "arch-rl")
+
+In this project, we use Unity like environment simulator engine and we use the PyTorch framework to build the deep RL agent.
+![arch-deeprl-unity](./img/arch-deeprl-unity-2.png "arch-deeprl-unity")
+
+This image defines the block diagram of ML-Agents toolkit for our sample environment. In our project, we use an unique agent.
+![arch-unity-1.png](./img/arch-unity-1.png "arch-unity-1.png")
+
+An example of how a scene containing multiple Agents and Brains might be configured.
+
+![arch-unity-2.png](./img/arch-unity-2.png "arch-unity-2.png")
+
+#### References: 
+1. [Unity Docs](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/ML-Agents-Overview.md)
+2. [Unity Paper](https://arxiv.org/abs/1809.02627)
+
 ## Code
 
 The code is written in PyTorch and Python 3.
@@ -24,13 +42,36 @@ Main Files:
 
 ## Learning Algorithm
 
+We implement an artificial agent, termed Deep Q-Network (DQN), to build the Deep Q-Learning algorithm. DQN Methods are defined in the paper ["Human-level control through deep reinforcement learning"](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning/) 
+
 ### Hyper Parameters
+
+#### Deep Q-Learning Parameters
+
++ BUFFER_SIZE = int(1e5)  # replay buffer size
++ BATCH_SIZE = 64         # minibatch size
++ GAMMA = 0.99            # discount factor
++ TAU = 1e-3              # for soft update of target parameters
++ LR = 5e-4               # learning rate 
++ UPDATE_EVERY = 4        # how often to update the network
 
 ### Neural Network - Model Architecture
 
+We build a Deep Q-Network (DQN) to build the Deep Q-Learning algorithm. The Deep Q-Learning algorithm uses two separate networks with identical model architectures.
+
+For this project we use a model with fully-connected linear layers and ReLu activations.
+The input layer is a fully-connected linear layer with 37 inputs(features). These inputs are the 37 signals that define the status of our environment.  
+The output layer is a fully-connected linear layer with a single output for each valid action. Like the env possible actions are 4, we have 4 outputs(features) in the last layer.
+
+Model:(
+  (fc1): Linear(in_features=37, out_features=64, bias=True)
+  (fc2): Linear(in_features=64, out_features=64, bias=True)
+  (fc3): Linear(in_features=64, out_features=4, bias=True)
+)
+
 ### Plot of Rewards
 
-Environment solved in 547 episodes!	Average Score: 15.01
+Environment solved in 547 episodes. Average Score: 15.01
 
 A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +15.
 

@@ -44,6 +44,9 @@ Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
+#### Step 3:
+If you want to visualize the graph of pytorch model. You have to install this [lib](https://github.com/szagoruyko/pytorchviz)
+
 #### Instructions
 
 **TODO**
