@@ -21,7 +21,7 @@ An example of how a scene containing multiple Agents and Brains might be configu
 
 ## Code
 
-The code is written in PyTorch and Python 3.
+The code is written in PyTorch and Python 3.6.2.
 
 Main Files:  
 
@@ -59,11 +59,11 @@ For this project we use a model with fully-connected linear layers and ReLu acti
 The input layer is a fully-connected linear layer with 37 inputs(features). These inputs are the 37 signals that define the status of our environment.  
 The output layer is a fully-connected linear layer with a single output for each valid action. Like the env possible actions are 4, we have 4 outputs(features) in the last layer.
 
-Model:(
-  (fc1): Linear(in_features=37, out_features=64, bias=True)
-  (fc2): Linear(in_features=64, out_features=64, bias=True)
-  (fc3): Linear(in_features=64, out_features=4, bias=True)
-)
+Model:
++ (fc1): Linear(in_features=37, out_features=64, bias=True)
++ (fc2): Linear(in_features=64, out_features=64, bias=True)
++ (fc3): Linear(in_features=64, out_features=4, bias=True)
+
 
 ### Plot of Rewards
 
@@ -90,7 +90,12 @@ Future ideas for improving the agent's performance.
 
 + Implement all the extensions in the same algorithm Rainbow. Researchers at Google DeepMind recently tested the performance of an agent that incorporated all six of these modifications. The corresponding algorithm was termed Rainbow.
 
+<!---
 ![dqn-6-rainbow.png](./img/dqn-6-rainbow.png "dqn-6-rainbow.png")
+-->
+
+<img src="./img/dqn-6-rainbow.png" width="380">
+
 
 ### Suggestions to Make Your Project Stand Out!
 
