@@ -51,7 +51,7 @@ We implement an artificial agent, termed Deep Q-Network (DQN), to build the Deep
 + LR = 5e-4               # learning rate 
 + UPDATE_EVERY = 4        # how often to update the network
 
-### Neural Network - Model Architecture
+#### Neural Network. Model Architecture & Parameters.
 
 We build a Deep Q-Network (DQN) to build the Deep Q-Learning algorithm. The Deep Q-Learning algorithm uses two separate networks with identical model architectures.
 

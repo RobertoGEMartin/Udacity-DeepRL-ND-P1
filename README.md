@@ -22,10 +22,10 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 
-0 - move forward.
-1 - move backward.
-2 - turn left.
-3 - turn right.
++ 0 - move forward.
++ 1 - move backward.
++ 2 - turn left.
++ 3 - turn right.
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
@@ -37,15 +37,15 @@ If you haven't already, please follow the instructions in the [DRLND GitHub repo
 
 #### Step 2: Download the Unity Environment
 
-You will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
+You will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. 
 
-Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+You need only select the environment that matches your operating system. Download and unzip into the main directory.
 
-#### Step 3:
-If you want to visualize the graph of pytorch model. You have to install this [lib](https://github.com/szagoruyko/pytorchviz)
++ Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
++ Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
++ Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
++ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
 
 #### Instructions
 
