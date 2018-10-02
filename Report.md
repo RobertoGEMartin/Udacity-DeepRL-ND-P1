@@ -31,7 +31,7 @@ Main Files:
    This code defines the agent.
 3. model.py
    This code defines de model of Neural Network architecture.
-4. Train-Unity-ML-Agent.ipynb
+4. DQN-Unity-ML.ipynb
    This notebook will train the agent.
 5. checkpoint.pth
    Saved model weights of the successful agent.
