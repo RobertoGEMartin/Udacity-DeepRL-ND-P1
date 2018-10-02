@@ -19,10 +19,6 @@ An example of how a scene containing multiple Agents and Brains might be configu
 
 ![arch-unity-2.png](./img/arch-unity-2.png "arch-unity-2.png")
 
-#### References: 
-1. [Unity Docs](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/ML-Agents-Overview.md)
-2. [Unity Paper](https://arxiv.org/abs/1809.02627)
-
 ## Code
 
 The code is written in PyTorch and Python 3.
@@ -80,26 +76,32 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 Video of Training:
 ![Video of Training](./videos/training.gif "Video of Training")
 
------------------
-Report
+### Ideas for Future Work
 
-The submission includes a file in the root of the GitHub repository (one of Report.md, Report.ipynb, or Report.pdf) that provides a description of the implementation.
+Future ideas for improving the agent's performance.
 
-Learning Algorithm
++ Implement the new improvements(extensions) to the original Deep Q-Learning algorithm. Each of the six extensions address a different issue with the original DQN algorithm.
+    1. Double DQN
+    2. Prioritized Experience Replay
+    3. Dueling DQN
+    4. Learning from multi-step bootstrap targets (A3C)
+    5. Distributional DQN
+    6. Noisy DQN
 
-The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
++ Implement all the extensions in the same algorithm Rainbow. Researchers at Google DeepMind recently tested the performance of an agent that incorporated all six of these modifications. The corresponding algorithm was termed Rainbow.
 
-Plot of Rewards
+![dqn-6-rainbow.png](./img/dqn-6-rainbow.png "dqn-6-rainbow.png")
 
-A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.
+### Suggestions to Make Your Project Stand Out!
 
-Ideas for Future Work
++ [x] Include a GIF and/or link to a YouTube video of your trained agent!
++ [x] Solve the environment in fewer than 1800 episodes!
++ [ ] Write a blog post explaining the project and your implementation!
++ [ ] Implement a double DQN, a dueling DQN, and/or prioritized experience replay!
++ [ ] For an extra challenge after passing this project, try to train an agent from raw pixels! Check out (Optional) Challenge: Learning from Pixels in the classroom for more details.
 
-The submission has concrete future ideas for improving the agent's performance.
+#### References
 
-Suggestions to Make Your Project Stand Out!
-Include a GIF and/or link to a YouTube video of your trained agent!
-Solve the environment in fewer than 1800 episodes!
-Write a blog post explaining the project and your implementation!
-Implement a double DQN, a dueling DQN, and/or prioritized experience replay!
-For an extra challenge after passing this project, try to train an agent from raw pixels! Check out (Optional) Challenge: Learning from Pixels in the classroom for more details.
+1. [Udacity Gihub Repo](https://github.com/udacity/deep-reinforcement-learning)
+2. [Unity Docs](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/ML-Agents-Overview.md)
+3. [Unity Paper](https://arxiv.org/abs/1809.02627)
