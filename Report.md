@@ -27,15 +27,15 @@ The code is written in PyTorch and Python 3.6.2.
 
 Main Files:  
 
-1. Banana.app
++  Banana.app
    This app will simulate the Unity environment.
-2. dgq_agent.py
++ dgq_agent.py
    This code defines the agent.
-3. model.py
++ model.py
    This code defines de model of Neural Network architecture.
-4. DQN-Unity-ML.ipynb
++ DQN-Unity-ML.ipynb
    This notebook will train the agent.
-5. checkpoint.pth
++ checkpoint.pth
    Saved model weights of the successful agent.
 
 ## Learning Algorithm
@@ -82,7 +82,7 @@ Video of Training:
 
 Future ideas for improving the agent's performance.
 
-+ Implement the new improvements(extensions) to the original Deep Q-Learning algorithm. Each of the six extensions address a different issue with the original DQN algorithm.
+1. Implement the new improvements(extensions) to the original Deep Q-Learning algorithm. Each of the six extensions address a different issue with the original DQN algorithm.
     1. Double DQN
     2. Prioritized Experience Replay
     3. Dueling DQN
@@ -90,7 +90,7 @@ Future ideas for improving the agent's performance.
     5. Distributional DQN
     6. Noisy DQN
 
-+ Implement all the extensions in the same algorithm Rainbow. Researchers at Google DeepMind recently tested the performance of an agent that incorporated all six of these modifications. The corresponding algorithm was termed Rainbow.
+2. Implement all the extensions in the same algorithm Rainbow. Researchers at Google DeepMind recently tested the performance of an agent that incorporated all six of these modifications. The corresponding algorithm was termed Rainbow.
 
 <!---
 ![dqn-6-rainbow.png](./img/dqn-6-rainbow.png "dqn-6-rainbow.png")
@@ -99,7 +99,7 @@ Future ideas for improving the agent's performance.
 <img src="./img/dqn-6-rainbow.png" width="380">
 
 
-+ The lower image is an example of an architecture with multiple Agents and Brains. This architecture could improve the agent's performance.
+3. The lower image is an example of an architecture with multiple Agents and Brains. This architecture could improve the agent's performance.
 
 ![arch-unity-2.png](./img/arch-unity-2.png "arch-unity-2.png")
 
