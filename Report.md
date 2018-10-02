@@ -20,9 +20,6 @@ We will train a DeepRL agent to solve a Unity Environment.
 
 ![arch-unity-1.png](./img/arch-unity-1.png "arch-unity-1.png")
 
-+ This below image is an example of how a scene containing multiple Agents and Brains might be configured.
-
-![arch-unity-2.png](./img/arch-unity-2.png "arch-unity-2.png")
 
 ## Code
 
@@ -101,6 +98,10 @@ Future ideas for improving the agent's performance.
 
 <img src="./img/dqn-6-rainbow.png" width="380">
 
+
++ The lower image is an example of an architecture with multiple Agents and Brains. This architecture could improve the agent's performance.
+
+![arch-unity-2.png](./img/arch-unity-2.png "arch-unity-2.png")
 
 ### Suggestions to Make Your Project Stand Out!
 
