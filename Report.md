@@ -86,7 +86,7 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 ![report-15.png - gif](./img/report-15-mac-cpu.png "report-15.png")
 
-### Watch The Trained DQN-Agent:
+### Watch The DQN-Agent in Action
 
 Video of The DQN-Agent:
 
