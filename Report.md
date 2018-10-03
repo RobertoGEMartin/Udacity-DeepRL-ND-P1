@@ -66,6 +66,10 @@ Model:
 + (fc2): Linear(in_features=64, out_features=64, bias=True)
 + (fc3): Linear(in_features=64, out_features=4, bias=True)
 
+### Training
+
+Video of Training:
+![Video of Training](./videos/training.gif "Video of Training")
 
 ### Plot of Rewards
 
@@ -75,8 +79,12 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 ![report-15.png - gif](./img/report-15-mac-cpu.png "report-15.png")
 
-Video of Training:
-![Video of Training](./videos/training.gif "Video of Training")
+Video of Trained DQN-Agent :
+![Video of Trained DQN-Agent](./videos/trained-dqn-agent.gif "Video of Trained DQN-Agent")
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://youtu.be/lBDV3A1hInQ
+" target="_blank"><img src="http://img.youtube.com/vi/https://youtu.be/lBDV3A1hInQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Ideas for Future Work
 
