@@ -101,6 +101,12 @@ Future ideas for improving the agent's performance.
 
 3. The lower image is an example of an architecture with multiple Agents and Brains. This architecture could improve the agent's performance.
 
+ **TO-DO**
+4. Learn from pixels
+5. New Algoritms: PPO, etc
+6. Read Unity-docs for new ideas
+
+
 ![arch-unity-2.png](./img/arch-unity-2.png "arch-unity-2.png")
 
 ### Suggestions to Make Your Project Stand Out!
