@@ -1,0 +1,12 @@
+# Mac OS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+#Folders
+.ipynb_checkpoints/
+Banana.app/
+test/
+videos/
+
