@@ -69,7 +69,11 @@ Model:
 ### Training
 
 Video of Training:
+
 ![Video of Training](./videos/training-dqn-agent-v2.gif "Video of Training")
+
+[HD video](http://www.youtube.com/watch?v=fMOUV3eqyaU)
+
 <!---
 [![Trained DQN-Agent](http://img.youtube.com/vi/fMOUV3eqyaU/0.jpg)](http://www.youtube.com/watch?v=fMOUV3eqyaU "Trained DQN-Agent")
 --->
@@ -85,8 +89,10 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 ### Watch The Trained DQN-Agent:
 
 Video of The DQN-Agent:
+
 ![Video of Training](./videos/trained-dqn-agent-v2.gif "Video of Training")
 
+[HD video](http://www.youtube.com/watch?v=lBDV3A1hInQ)
 <!--- 
 [![Trained DQN-Agent](http://img.youtube.com/vi/lBDV3A1hInQ/0.jpg)](http://www.youtube.com/watch?v=lBDV3A1hInQ "Trained DQN-Agent")
 --->
