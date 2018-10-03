@@ -46,7 +46,8 @@ You need only select the environment that matches your operating system. Downloa
 + Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 + Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-
 #### Instructions
 
-To train the agent, you have to follow the notebook 'DQN-Unity-ML.ipynb'
+You have to follow the notebook 'DQN-Unity-ML.ipynb' to train the DQN agent.
+
+If you want to watch the agent in action, jump to the cell "Watch a Smart Agent!". You will load the trained weights from checkpoint file to watch a smart agent!
